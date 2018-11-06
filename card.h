@@ -15,6 +15,7 @@ public:
     string frontSide;
     string backSide;
     card();
+    card(string, string);
     ~card() = default;
     void printCard();
     string getFrontSide();

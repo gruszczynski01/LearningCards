@@ -1,0 +1,8 @@
+Pies
+Dog
+Kot
+Cat
+Krowa
+Cow
+Kurczak
+Chicken

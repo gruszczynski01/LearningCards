@@ -7,12 +7,19 @@ using namespace std;
 
 int main() {
     box mainBox;
+    /*mainBox.addCard();
     mainBox.addCard();
     mainBox.addCard();
-    mainBox.addCard();
-    mainBox.addCard();
+    mainBox.addCard();*/
+    //mainBox.printBox();
+    //mainBox.test();
     mainBox.printBox();
-    mainBox.test();
+    mainBox.loadCards();
     mainBox.printBox();
+    mainBox.addCard();
+    mainBox.addCard();
+    mainBox.addCard();
+    mainBox.saveCards();
+
     return 0;
 }

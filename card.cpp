@@ -11,6 +11,11 @@ card::card() {
     cout << "Podaj druga strone fiszki: " << endl;
     cin >> this->backSide;
 }
+card::card(string bufferFS, string bufferBS) {
+    this->frontSide = bufferFS;
+    this->backSide = bufferBS;
+    cout << "CARD HAVE BEEN LOADED..." << endl;
+}
 void card::printCard() {
     cout << "========CARD=======" << endl;
     cout << "Front side: " << this->frontSide <<  endl;

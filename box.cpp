@@ -2,6 +2,8 @@
 // Created by Szymon Gruszczyński on 04/11/2018.
 //
 
+#include <fstream>
+#include <iostream>
 #include "box.h"
 
 box::box() {
@@ -18,7 +20,6 @@ void box::printBox() {
             cout << "empty" << endl;
         tabOfSmallBox[smallBoxNumber].printCards();
     }
-
 }
 void box::test() {
     cout << "testing from smallBox" << endl;
@@ -59,6 +60,50 @@ void box::test() {
                 tabOfSmallBox[smallBoxNumber].listOfCards.pop_front();
             }
             loopStoper++;
+        }
+    }
+}
+void box::loadCards() {
+    fstream dataFile;
+    string fileNames[] = {"sB1.txt", "sB2.txt", "sB3.txt", "sB4.txt", "sB5.txt"};
+    string bufferFS, bufferBS;
+    for(int i = 0; i<=4; i++)
+    {
+        dataFile.open(fileNames[i], ios::in);
+        if(dataFile.good() == true){
+            //while(!dataFile.eof()) {
+            while(getline(dataFile, bufferFS)) {//dlaczego EOF nie działa???
+                cout << bufferFS << endl;
+                getline(dataFile, bufferBS);
+                cout << bufferBS << endl;
+                card *temp = new card(bufferFS, bufferBS);
+                tabOfSmallBox[i].listOfCards.push_back(temp);
+                cout << "card has been added to list" << endl;
+            }
+            dataFile.close();
+        } else{
+            cout << "blad" << endl;
+        }
+    }
+}
+void  box::saveCards() {
+    fstream dataFile;
+    string fileNames[] = {"sB1.txt", "sB2.txt", "sB3.txt", "sB4.txt", "sB5.txt"};
+    string bufferFS, bufferBS;
+    for(int i = 0; i<=4; i++)
+    {
+        dataFile.open(fileNames[i], ios::out | ios::trunc);
+        list<card *>::iterator iter;
+        if(dataFile.good() == true){
+            for( iter=tabOfSmallBox[i].listOfCards.begin(); iter != tabOfSmallBox[i].listOfCards.end(); ++iter ){
+                card *currentCard = *iter;
+                dataFile << currentCard->frontSide << endl;
+                dataFile << currentCard->backSide << endl;
+                cout << "card has been saved to filr" << endl;
+            }
+            dataFile.close();
+        } else{
+            cout << "blad" << endl;
         }
     }
 }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Card_containersSTL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Card_containersSTL">
+				<Option output="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Card_containersSTL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Card_containersSTL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Card_containersSTL/fast">
+				<Option output="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Card_containersSTL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Card_containersSTL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/szymongruszczynski/CLionProjects/Card_containersSTL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/box.cpp">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/box.h">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/card.cpp">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/card.h">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/main.cpp">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/smallBox.cpp">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/smallBox.h">
+			<Option target="Card_containersSTL"/>
+		</Unit>
+		<Unit filename="/Users/szymongruszczynski/CLionProjects/Card_containersSTL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

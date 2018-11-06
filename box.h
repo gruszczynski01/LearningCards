@@ -20,6 +20,8 @@ public:
     void addCard();
     void printBox();
     void test();
+    void loadCards();
+    void saveCards();
 
 
 
